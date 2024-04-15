@@ -8,6 +8,7 @@ import MainContent from './components/MainContent';
 import QnA from './components/QnA';
 import TSS from './components/assets/TSS.png';
 import Gender from './components/Gender';
+import BarriersToResearch from './components/BarriersToResearch';
 
 function App() {
   return (
@@ -16,7 +17,7 @@ function App() {
         <header className="sticky-header">
           <h1>Bleed Sustainably</h1>
           <nav>
-            <Link to="/">Home</Link> | <a href='#sustainable'>Sustainable Menstruation</a>  | <a href='#QnA'>Q&A with JUNE Co.</a> | <a href="#gender">Gender & Sustainability</a>  | <Link to="/about">About</Link>
+            <Link to="/">Home</Link> | <a href='#sustainable'>Sustainable Menstruation</a>  | <a href='#QnA'>Q&A with JUNE Co.</a> | <a href="#gender">Gender & Sustainability</a>  | <a href="#barriers">Barriers to Research</a>  | <Link to="/about">About</Link>
           </nav>
         </header>
 
@@ -31,6 +32,7 @@ function App() {
                   <div className="image-container"><img src={TSS} alt="Infographic about Toxic Shock Syndrome" /></div>
                   <section id="QnA"><QnA /></section>
                   <section id="gender"><Gender /></section>
+                  <section id="barriers"><BarriersToResearch /></section>
 
                   </div>
                 </div>
