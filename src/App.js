@@ -1,24 +1,44 @@
-import logo from './logo.svg';
+import React from 'react';
+import { BrowserRouter as Router, Route, Link, Routes } from 'react-router-dom';
 import './App.css';
+import NavigationCircles from './components/NavigationCircles';
+import FunFactsContainer from './components/FunFactsContainer';
+import AboutMe from './components/AboutMe';
+import MainContent from './components/MainContent';
+import QnA from './components/QnA';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div>
+        <header className="sticky-header">
+          <h1>Bleed Sustainably</h1>
+          <nav>
+            <Link to="/">Home</Link> | <Link to="/about">About</Link>
+          </nav>
+        </header>
+        <div className="main-grid-container">
+          <div className="main-content">
+            <Routes>
+              <Route path="/" element={
+                <>
+                  <NavigationCircles />
+                  <MainContent />
+                  <QnA />
+                  <FunFactsContainer />
+                </>
+              } />
+              <Route path="/about" element={<AboutMe />} />
+            </Routes>
+          </div>
+        </div>
+
+
+        <footer>
+          {/* Footer content */}
+        </footer>
+      </div>
+    </Router>
   );
 }
 

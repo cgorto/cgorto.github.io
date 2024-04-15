@@ -36,3 +36,135 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header, footer {
+  text-align: center;
+  padding: 20px;
+}
+
+#hero {
+  background-color: #e0f2f1;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.circle-nav {
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* Space between circles */
+  flex-wrap: wrap; /* Allows items to wrap in smaller screens */
+}
+
+.nav-circle {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center items vertically */
+  text-decoration: none; /* Remove underline from links */
+  width: 120px; /* Adjust based on your design */
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  border: none;
+  background: none;
+}
+
+.modal {
+  font-size: 16px;
+  padding: 20px;
+  background: white;
+  border-radius: 5px;
+}
+
+/* Style for the main content area */
+/* Ensures the grid layout works as expected */
+.main-grid-container {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr; /* Side columns are 1fr, center column is 3fr */
+  gap: 20px; /* Space between columns */
+  max-width: 1200px; /* Adjust based on your design preference */
+  margin: 0 auto; /* Center the grid in the middle of the page */
+  padding: 20px;
+}
+
+/* Main content in the center column */
+.main-content {
+  grid-column: 2 / 3; /* Place main content in the middle column */
+}
+
+/* Style for the side columns */
+.side-column {
+  background-color: #f4f4f4; /* Example background color */
+  padding: 20px;
+}
+
+.fun-fact-box {
+  border: 1px solid #ccc; /* Light grey border */
+  padding: 20px;
+  background-color: #f9f9f9; /* Light background for the box */
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+}
+
+
+
+.nav-circle img {
+  border-radius: 50%; /* Makes the image circular */
+  width: 100px; /* Diameter of the circle */
+  height: 100px; /* Diameter of the circle */
+  object-fit: cover; /* Ensures the image covers the circle nicely */
+}
+
+.circle-caption {
+  margin-top: 8px; /* Space between the circle and the caption */
+  font-size: 14px; /* Caption font size */
+  text-align: center; /* Centers the caption text */
+  color: #333; /* Caption text color */
+}
+
+
+.nav-circle:hover{
+  transform: scale(1.1); /* Zoom effect on hover */
+}
+
+.question {
+  font-weight: bold;
+}
+
+
+
+footer {
+  background-color: #004d40;
+  color: white;
+}
+
+.sticky-header {
+  position: sticky;
+  top: 0; /* Ensures the header stays at the top of the viewport */
+  background-color: white; /* Or any other color fitting your design */
+  z-index: 1000; /* Keeps the header above other content */
+  width: 100%; /* Ensures the header extends full width */
+  padding: 10px 20px; /* Adds some padding inside the header */
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Optional: adds shadow for better visibility */
+}
+
+/* Ensuring the navigation within the header is styled appropriately */
+nav {
+  display: inline-block; /* Ensures the navigation links are in line */
+}
+
+nav a {
+  text-decoration: none;
+  margin: 0 10px;
+  color: #333; /* Or your choice of color */
+  font-weight: bold; /* Makes the navigation links bold */
+}
+
+nav a:hover {
+  text-decoration: underline; /* Adds an underline on hover to indicate clickable */
+}
+

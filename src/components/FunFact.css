@@ -1,0 +1,18 @@
+.fun-fact-box {
+    margin: 20px 0;
+    padding: 15px;
+    background-color: #f9f9f9;  /* Light gray background */
+    border: 1px solid #ccc;     /* Gray border */
+    border-radius: 8px;         /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+  
+  .fun-fact-link {
+    color: inherit;  /* Inherits the color from the parent element */
+     /* Removes underline */
+  }
+  
+  .fun-fact-link:hover {
+    text-decoration: underline; /* Adds underline on hover to indicate it's clickable */
+  }
+  
