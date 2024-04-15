@@ -59,7 +59,7 @@ header, footer {
 .circle-nav {
   display: flex;
   justify-content: center;
-  gap: 5vw; /* Space between circles */
+  gap: 7vw; /* Space between circles */
   flex-wrap: wrap; /* Allows items to wrap in smaller screens */
   
 }
