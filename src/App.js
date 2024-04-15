@@ -16,7 +16,7 @@ function App() {
         <header className="sticky-header">
           <h1>Bleed Sustainably</h1>
           <nav>
-            <Link to="/">Home</Link> | <a href='#sustainable'>Sustainable Menstruation</a>  | <a href='#QnA'>Q&A with June</a> | <a href="#gender">Gender & Sustainability</a>  | <Link to="/about">About</Link>
+            <Link to="/">Home</Link> | <a href='#sustainable'>Sustainable Menstruation</a>  | <a href='#QnA'>Q&A with JUNE Co.</a> | <a href="#gender">Gender & Sustainability</a>  | <Link to="/about">About</Link>
           </nav>
         </header>
 
