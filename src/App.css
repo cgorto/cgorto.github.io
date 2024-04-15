@@ -47,6 +47,7 @@ body {
 header, footer {
   text-align: center;
   padding: 20px;
+  font-family: "syne", sans-serif;
 }
 
 #hero {
@@ -60,6 +61,11 @@ header, footer {
   justify-content: center;
   gap: 20px; /* Space between circles */
   flex-wrap: wrap; /* Allows items to wrap in smaller screens */
+  
+}
+
+h2 {
+  font-family: "Syne", sans-serif;
 }
 
 .nav-circle {
@@ -67,11 +73,16 @@ header, footer {
   flex-direction: column;
   align-items: center; /* Center items vertically */
   text-decoration: none; /* Remove underline from links */
-  width: 120px; /* Adjust based on your design */
+  width: 300px; /* Adjust based on your design */
   cursor: pointer;
   transition: all 0.3s ease-in-out;
   border: none;
   background: none;
+  font-family: "space grotesk", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 .modal {
@@ -79,6 +90,7 @@ header, footer {
   padding: 20px;
   background: white;
   border-radius: 5px;
+  font-family: "space grotesk", sans-serif;
 }
 
 /* Style for the main content area */
@@ -86,8 +98,7 @@ header, footer {
 .main-grid-container {
   display: grid;
   grid-template-columns: 1fr 3fr 1fr; /* Side columns are 1fr, center column is 3fr */
-  gap: 20px; /* Space between columns */
-  max-width: 1200px; /* Adjust based on your design preference */
+  gap: 20px; /* Space between columns */ /* Adjust based on your design preference */
   margin: 0 auto; /* Center the grid in the middle of the page */
   padding: 20px;
 }
@@ -96,6 +107,7 @@ header, footer {
 .main-content {
   font-family: 'Space Grotesk', sans-serif;
   grid-column: 2 / 3; /* Place main content in the middle column */
+  font-size: 20px;
 }
 
 /* Style for the side columns */
@@ -111,12 +123,19 @@ header, footer {
   box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Subtle shadow for depth */
 }
 
+.header {
+  font-family: "syne", sans-serif;
+  /* bold */
+  font-weight: bold;
+  font-size: 24px;
+}
+
 
 
 .nav-circle img {
   border-radius: 50%; /* Makes the image circular */
-  width: 100px; /* Diameter of the circle */
-  height: 100px; /* Diameter of the circle */
+  width: 300px; /* Diameter of the circle */
+  height: 300px; /* Diameter of the circle */
   object-fit: cover; /* Ensures the image covers the circle nicely */
 }
 
@@ -170,15 +189,21 @@ nav a:hover {
 }
 
 .image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 100%; /* or any specific size */
   height: auto; /* or any specific size, keeping it responsive */
   overflow: hidden; /* optional, to hide parts of the image if it overflows */
 }
 
 .image-container img {
-  width: 100%; /* or any specific size */
+  width: auto; /* or any specific size */
   height: auto; /* or any specific size, keeping it responsive */
-  max-width: 500px; /* removes bottom space/gap */
+  max-width: 50%; /* removes bottom space/gap */
   object-fit: contain; /* Ensures the aspect ratio is maintained without cropping */
 }
 
+* {
+  box-sizing: border-box;
+}

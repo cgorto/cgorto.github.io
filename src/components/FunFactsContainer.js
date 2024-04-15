@@ -4,6 +4,8 @@ import './FunFactsContainer.css'; // CSS for styling the container
 
 const FunFactsContainer = () => {
   return (
+
+    
     <div className="fun-facts-container">
       <FunFact
         title="Mice were Used to Test Tampons"

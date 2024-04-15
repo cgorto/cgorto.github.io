@@ -3,7 +3,7 @@ import '../App.css';
 
 function QnA() {
     return (
-        <div className="main-content">
+        <div>
               <h2>Company Q&A with Desiree Gibbens from JUNE Co.</h2>
               <p><span className="question">What sets you apart from other brands?</span></p>
               <p>The goal of The JUNE Co. is to provide individuals with a cost-effective and eco-friendly solution to pads and tampons by offering reusable menstrual cups. While leading brands such as Tampax, Kotex, and Always recognize the increasing demand for menstrual care, they primarily rely on single-use products to retain customers. However, Hedi Rappard, the founder of JUNE, capitalized on the opportunity during the Global Pandemic in 2020 and realized that other companies were persisting in selling products at exorbitant prices. However, with June we opted to offer our menstrual cups at their production cost.</p>

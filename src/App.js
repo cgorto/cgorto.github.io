@@ -16,31 +16,37 @@ function App() {
         <header className="sticky-header">
           <h1>Bleed Sustainably</h1>
           <nav>
-            <Link to="/">Home</Link> | <Link to="/about">About</Link>
+            <Link to="/">Home</Link> | <a href='#sustainable'>Sustainable Menstruation</a>  | <a href='#QnA'>Q&A with June</a> | <a href="#gender">Gender & Sustainability</a>  | <Link to="/about">About</Link>
           </nav>
         </header>
-        <div className="main-grid-container">
-          <div className="main-content">
+
             <Routes>
               <Route path="/" element={
                 <>
+                <div className="main-grid-container">
+                  <div className="main-content">
                   <NavigationCircles />
-                  <MainContent />
+                  <section id="sustainable"><MainContent /></section>
                   <div className="image-container"><img src={TSS} alt="Infographic about Toxic Shock Syndrome" /></div>
-                  <QnA />
-                  <Gender />
-                  <FunFactsContainer />
+                  <section id="QnA"><QnA /></section>
+                  <section id="gender"><Gender /></section>
+
+                  </div>
+                </div>
+                <FunFactsContainer />
                 </>
               } />
-              <Route path="/about" element={<AboutMe />} />
+              <Route path="/about" element={
+              <div className="main-grid-container">
+                <div className="main-content">
+              <AboutMe />
+              </div>
+              </div>
+              
+              } />
             </Routes>
-          </div>
-        </div>
 
 
-        <footer>
-          {/* Footer content */}
-        </footer>
       </div>
     </Router>
   );
