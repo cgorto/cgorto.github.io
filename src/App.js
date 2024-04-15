@@ -6,6 +6,8 @@ import FunFactsContainer from './components/FunFactsContainer';
 import AboutMe from './components/AboutMe';
 import MainContent from './components/MainContent';
 import QnA from './components/QnA';
+import TSS from './components/assets/TSS.png';
+import Gender from './components/Gender';
 
 function App() {
   return (
@@ -24,7 +26,9 @@ function App() {
                 <>
                   <NavigationCircles />
                   <MainContent />
+                  <div className="image-container"><img src={TSS} alt="Infographic about Toxic Shock Syndrome" /></div>
                   <QnA />
+                  <Gender />
                   <FunFactsContainer />
                 </>
               } />

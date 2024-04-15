@@ -26,6 +26,7 @@ function MainContent() {
             <p>Access to proper sanitation can also be a barrier to sustainable period care. Menstrual cups can be messy and need to be properly sanitized. Public restrooms aren’t the best place for changing these, as they need to be dumped and cleaned periodically.</p>
             <p>
 Access to water is also important. At home, menstrual cups can be washed in boiling water. Period underwear should be rinsed and washed in cold water in the washing machine, but not everyone has access to clean water or washers to keep these products properly sanitized.</p>
+<p> Ingredients, waste , and sanitation are all important aspects of selecting the right menstrual products. Picking what's healthy, comfortable, and affordable as an indivial is also imperative.</p>
         </div>
     )
 }

@@ -94,6 +94,7 @@ header, footer {
 
 /* Main content in the center column */
 .main-content {
+  font-family: 'Space Grotesk', sans-serif;
   grid-column: 2 / 3; /* Place main content in the middle column */
 }
 
@@ -145,7 +146,7 @@ footer {
 .sticky-header {
   position: sticky;
   top: 0; /* Ensures the header stays at the top of the viewport */
-  background-color: white; /* Or any other color fitting your design */
+  background-color: #86CD82; /* Or any other color fitting your design */
   z-index: 1000; /* Keeps the header above other content */
   width: 100%; /* Ensures the header extends full width */
   padding: 10px 20px; /* Adds some padding inside the header */
@@ -166,5 +167,18 @@ nav a {
 
 nav a:hover {
   text-decoration: underline; /* Adds an underline on hover to indicate clickable */
+}
+
+.image-container {
+  width: 100%; /* or any specific size */
+  height: auto; /* or any specific size, keeping it responsive */
+  overflow: hidden; /* optional, to hide parts of the image if it overflows */
+}
+
+.image-container img {
+  width: 100%; /* or any specific size */
+  height: auto; /* or any specific size, keeping it responsive */
+  max-width: 500px; /* removes bottom space/gap */
+  object-fit: contain; /* Ensures the aspect ratio is maintained without cropping */
 }
 
