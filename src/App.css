@@ -73,7 +73,7 @@ h2 {
   flex-direction: column;
   align-items: center; /* Center items vertically */
   text-decoration: none; /* Remove underline from links */
-  width: 300px; /* Adjust based on your design */
+  width: 20vw; /* Adjust based on your design */
   cursor: pointer;
   transition: all 0.3s ease-in-out;
   border: none;

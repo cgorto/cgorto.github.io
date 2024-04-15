@@ -27,6 +27,7 @@ function App() {
                   <div className="main-content">
                   <NavigationCircles />
                   <section id="sustainable"><MainContent /></section>
+                  <h2> Toxic Shock Syndrome Infographic</h2>
                   <div className="image-container"><img src={TSS} alt="Infographic about Toxic Shock Syndrome" /></div>
                   <section id="QnA"><QnA /></section>
                   <section id="gender"><Gender /></section>
