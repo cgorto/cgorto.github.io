@@ -21,7 +21,7 @@ function MainContent() {
             <p>Some sustainable menstrual products can also help avoid chemicals. Menstrual cups, for example, are typically made out of medical-grade silicon. In a clear or white appearing cup, this may be the only ingredient. Any other color is subject to dyes. </p>
             <p>Vostral stated that, “I think it's worth it to try the menstrual cups and they work wonderfully for a lot of people and some people they just don't.”</p>
             <p>Unfortunately, sustainable menstrual products do have barriers like cost. Reusable period underwear can cost upwards of thirty dollars a pair, depending on the brand. </p>
-            <p><a href='https://thejunecup.com/collections/frontpage'>JUNE</a>, however, is an example of companies doing things right.</p>
+            <p><a href='https://thejunecup.com/collections/frontpage'>JUNE Co.</a>, however, is an example of companies doing things right.</p>
             <p>To ensure people have access to safe, sustainable, and affordable menstrual products, they only charge production costs for their menstrual cups. They also sanitize kits. </p>
             <p>Access to proper sanitation can also be a barrier to sustainable period care. Menstrual cups can be messy and need to be properly sanitized. Public restrooms aren’t the best place for changing these, as they need to be dumped and cleaned periodically.</p>
             <p>
