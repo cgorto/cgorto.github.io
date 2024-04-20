@@ -6,7 +6,7 @@ import FunFactsContainer from './components/FunFactsContainer';
 import AboutMe from './components/AboutMe';
 import MainContent from './components/MainContent';
 import QnA from './components/QnA';
-import TSS from './components/assets/TSS.png';
+import TSS from './components/TSS.png';
 import Gender from './components/Gender';
 import BarriersToResearch from './components/BarriersToResearch';
 
