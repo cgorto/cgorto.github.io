@@ -17,7 +17,7 @@ function App() {
         <header className="sticky-header">
           <h1>Bleed Sustainably</h1>
           <nav>
-            <Link to="/">Home</Link> | <a href='#sustainable'>Sustainable Menstruation</a>  | <a href='#QnA'>Q&A with JUNE Co.</a> | <a href="#gender">Gender & Sustainability</a>  | <a href="#barriers">Barriers to Research</a>  | <Link to="/about">About</Link>
+            <Link to="/">Home</Link> | <a href="#statement">About</a> | <a href='#sustainable'>Sustainable Menstruation</a>  | <a href='#QnA'>Q&A with JUNE Co.</a> | <a href="#gender">Gender & Sustainability</a>  | <a href="#barriers">Barriers to Research</a>  
           </nav>
         </header>
 
@@ -27,6 +27,7 @@ function App() {
                 <div className="main-grid-container">
                   <div className="main-content">
                   <NavigationCircles />
+                  <section id = "statement"><AboutMe /></section>
                   <section id="sustainable"><MainContent /></section>
                   <h2> Toxic Shock Syndrome Infographic</h2>
                   <div className="image-container"><img src={TSS} alt="Infographic about Toxic Shock Syndrome" /></div>

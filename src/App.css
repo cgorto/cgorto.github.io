@@ -60,8 +60,7 @@ header, footer {
   display: flex;
   justify-content: center;
   gap: 10vw; /* Space between circles */
-  flex-wrap: wrap; /* Allows items to wrap in smaller screens */
-  
+  flex-wrap: wrap;
 }
 
 h2 {
@@ -79,6 +78,36 @@ h2 {
   border: none;
   background: none;
   font-family: "space grotesk", sans-serif;
+}
+
+.nav-circle img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  display: block;
+}
+
+.circle-caption {
+  display: block;
+  margin-top: 8px;
+}
+
+.info-blurb {
+  position: absolute;
+  width: 30vw; 
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 10px;
+  top: 100%; 
+  left: 50%;
+  transform: translateX(-50%); 
+  z-index: 100; 
+  display: none; 
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.nav-circle:hover .info-blurb {
+  display: block;
 }
 
 html {
