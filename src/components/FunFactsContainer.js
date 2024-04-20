@@ -14,7 +14,8 @@ const FunFactsContainer = () => {
       />
       <FunFact
         title="Medical Devices Amendment"
-        content="The Food and Drug administration added the Medical Devices Amendment in 1976. This was because contacts and intrauterine devices were harming people. However, pads and tampons were grandfathered in, because they were already on the market."
+        content="The Food and Drug administration added the Medical Devices Amendment in 1976. The amendment was proposed because contact lenses and intrauterine devices were harming people. This urged the government to take action and require a regulatory pathway before medical devices could make it onto the shelves. However, pads and tampons were grandfathered in, because they were already on the market. 
+        "
         link="https://www.ncbi.nlm.nih.gov/books/NBK209793/#:~:text=It%20recommended%20creation%20of%20three,and%20the%20third%20would%20be"
       />
       <FunFact
